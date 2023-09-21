@@ -3,6 +3,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Vans from './pages/Vans'
 import './Server'
+import VanDetail from './pages/VanDetail'
 function App() {
   return (
     <>
@@ -19,6 +20,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/Vans" element={<Vans />} />
+        <Route path="/Vans/:id" element={<VanDetail />} />
       </Routes>
     </>
   )
