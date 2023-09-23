@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom'
 function Header() {
   return (
     <header>
-      <Link to="/host">Host</Link>
       <Link className="site-logo" to="/">
         #VanLife
       </Link>
       <nav>
+        <Link to="/host">Host</Link>
         <Link to="/about">About</Link>
         <Link to="/Vans">Vans</Link>
       </nav>
