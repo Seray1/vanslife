@@ -1,6 +1,5 @@
-import React from 'react'
 import { Outlet } from 'react-router-dom'
-import HostHeader from '../pages/Host/HostHeader'
+import HostHeader from './HostHeader'
 
 function HostLayout() {
   return (
